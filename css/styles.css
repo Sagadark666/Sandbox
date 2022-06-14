@@ -1,8 +1,8 @@
-.row-header {
+.row-header{
 	margin: 0px auto;
 	padding: 0px auto;
 }
-.jumbotron {
+.jumbotron{
 	padding: 70px 30px 70px 30px;
 	margin: 0px auto;
 	background: #D90000;
@@ -12,24 +12,24 @@
 	padding: 30px 0px 0px 0px;
 }
 
-.row-content {
+.row-content{
 	margin: 0px auto;
 	padding: 50px 0px 50px 0px;
 	border-bottom: 1px ridge;
 	min-height: 400px;
 }
-.row-content-strech {
+.row-content-strech{
 	margin: 0px auto;
 	padding: 50px 0px 50px d0px;
 	border-bottom: 1px ridge;
-	min-height: 100px;
+	min-height: 200px;
 }
-.footer {
+.footer{
 	background-color: #FF8C00;
 	margin: 0px auto;
 	padding: 20px 0px 20px 0px;
 }
-.address {
+.address{
 	font-size: 80%;
 	margin: 0px;
 }
