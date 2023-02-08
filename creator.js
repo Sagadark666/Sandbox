@@ -34,19 +34,8 @@ document.addEventListener("DOMContentLoaded", function() {
     creator.render("surveyCreator");
 });
 
-// WARNING: For POST requests, body is set to null by browsers.
-
-//var xhr = new XMLHttpRequest();
-//xhr.withCredentials = true;
-
-//xhr.addEventListener("readystatechange", function() {
-//  if(this.readyState === 4) {
-//    console.log(this.responseText);
-//  }
-//});
-
 Survey.ChoicesRestfull.onBeforeSendRequest = function(sender, options) {
-  options.request.setRequestHeader("Authorization", "56389d8a-1d89-43d6-b3da-2e47047e9d5f");
+  options.request.setRequestHeader("Authorization", "ad0ead6e-6433-458c-8bc1-8cf3031b6bd0");
 };
 
 
@@ -92,7 +81,7 @@ creator.saveSurveyFunc = (saveNo, callback) => {
 function initMap() {
   // The location of Uluru
   const bogota = { lat: 4.7110, lng: -74.0721};
-  // The map, centered at Uluru
+  // The map, centered at Bogota
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 11,
     center: bogota,
