@@ -1,7 +1,7 @@
 {
-  "name": "confusion",
-  "version": "1.0.0",
-  "description": "This is a website for Ristorante Con Fusion",
+  "name": "sandbox",
+  "version": "0.1.0",
+  "description": "ANT Sandbox",
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
@@ -14,7 +14,9 @@
     "lite-server": "^2.3.0"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "@angular/cdk": "^13.0.0",
+    "@angular/core": "^14.0.0",
+    "bootstrap": "^5.0.0",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
