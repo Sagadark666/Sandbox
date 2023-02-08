@@ -11,9 +11,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.3.0"
+
   },
   "dependencies": {
+    "lite-server": "^2.3.0",
     "@angular/cdk": "^13.0.0",
     "@angular/core": "^14.0.0",
     "bootstrap": "^5.0.0",
